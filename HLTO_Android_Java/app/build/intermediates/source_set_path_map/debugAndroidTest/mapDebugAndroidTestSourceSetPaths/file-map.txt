@@ -1,0 +1,5 @@
+com.wbd101.hlt010.test.app-jetified-core-1.6.1-0 C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\2b5963a3642df55778771b6580907823\transformed\jetified-core-1.6.1\res
+com.wbd101.hlt010.test.app-androidTest-1 C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\build\generated\res\resValues\androidTest\debug
+com.wbd101.hlt010.test.app-mergeDebugAndroidTestResources-2 C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.wbd101.hlt010.test.app-mergeDebugAndroidTestResources-3 C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.wbd101.hlt010.test.app-debugAndroidTest-4 C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

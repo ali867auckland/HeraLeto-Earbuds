@@ -1,0 +1,191 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.wbd101.hlt010"
+4    android:versionCode="4"
+5    android:versionName="1.4" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="34"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:6:5-68
+11-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:6:22-65
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:7:5-74
+12-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:7:22-71
+13    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+13-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:8:5-75
+13-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:8:22-73
+14    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+14-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:9:5-73
+14-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:9:22-70
+15    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+15-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:10:5-78
+15-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:10:22-75
+16    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+16-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:11:5-12:47
+16-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:11:22-77
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:13:5-14:40
+17-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:13:22-78
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:15:5-16:40
+18-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:15:22-77
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:17:5-68
+19-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:17:22-65
+20    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+20-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:20:5-75
+20-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:20:22-72
+21    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+21-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:21:5-78
+21-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:21:22-76
+22    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+22-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:22:5-81
+22-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:22:22-78
+23
+24    <uses-feature
+24-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:24:5-26:35
+25        android:name="android.hardware.bluetooth_le"
+25-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:25:9-53
+26        android:required="true" />
+26-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:26:9-32
+27
+28    <permission
+28-->[androidx.core:core:1.13.0] C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\cd3d15b8684773a2accf23387fad50ad\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+29        android:name="com.wbd101.hlt010.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+29-->[androidx.core:core:1.13.0] C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\cd3d15b8684773a2accf23387fad50ad\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+30        android:protectionLevel="signature" />
+30-->[androidx.core:core:1.13.0] C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\cd3d15b8684773a2accf23387fad50ad\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+31
+32    <uses-permission android:name="com.wbd101.hlt010.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+32-->[androidx.core:core:1.13.0] C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\cd3d15b8684773a2accf23387fad50ad\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+32-->[androidx.core:core:1.13.0] C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\cd3d15b8684773a2accf23387fad50ad\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+33
+34    <application
+34-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:28:5-54:19
+35        android:allowBackup="true"
+35-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:29:9-35
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.13.0] C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\cd3d15b8684773a2accf23387fad50ad\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+37        android:debuggable="true"
+38        android:extractNativeLibs="false"
+39        android:icon="@mipmap/ic_launcher"
+39-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:30:9-43
+40        android:label="Hera Leto Android"
+40-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:31:9-42
+41        android:roundIcon="@mipmap/ic_launcher_round"
+41-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:32:9-54
+42        android:supportsRtl="true"
+42-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:33:9-35
+43        android:testOnly="true"
+44        android:theme="@style/Theme.TWSDemo" >
+44-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:34:9-45
+45        <activity
+45-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:36:9-38:45
+46            android:name="com.wbd101.hlt010.BleOperations"
+46-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:36:19-65
+47            android:screenOrientation="fullSensor" />
+47-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:37:13-51
+48        <activity
+48-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:39:9-47:20
+49            android:name="com.wbd101.hlt010.MainActivity"
+49-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:39:19-64
+50            android:exported="true"
+50-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:40:13-36
+51            android:screenOrientation="fullSensor" >
+51-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:41:13-51
+52            <intent-filter>
+52-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:43:13-46:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:44:17-69
+53-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:44:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:45:17-77
+55-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:45:27-74
+56            </intent-filter>
+57        </activity>
+58        <activity
+58-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:48:9-50:45
+59            android:name="com.wbd101.hlt010.ViewHistory"
+59-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:48:19-63
+60            android:screenOrientation="fullSensor" />
+60-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:49:13-51
+61
+62        <meta-data
+62-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:51:9-53:57
+63            android:name="preloaded_fonts"
+63-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:52:13-43
+64            android:resource="@array/preloaded_fonts" />
+64-->C:\Users\Zwoax\Downloads\HLTO_Shared-main\HLTO_Shared-main\HLTO_Android_Java\app\src\main\AndroidManifest.xml:53:13-54
+65
+66        <provider
+66-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\55a4ffaeff3ab4acaf2a11968558b3bf\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+67            android:name="androidx.startup.InitializationProvider"
+67-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\55a4ffaeff3ab4acaf2a11968558b3bf\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+68            android:authorities="com.wbd101.hlt010.androidx-startup"
+68-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\55a4ffaeff3ab4acaf2a11968558b3bf\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+69            android:exported="false" >
+69-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\55a4ffaeff3ab4acaf2a11968558b3bf\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+70            <meta-data
+70-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\55a4ffaeff3ab4acaf2a11968558b3bf\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+71                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+71-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\55a4ffaeff3ab4acaf2a11968558b3bf\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+72                android:value="androidx.startup" />
+72-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\55a4ffaeff3ab4acaf2a11968558b3bf\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+73            <meta-data
+73-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\1af91fb5fbde7d8eaf4d346a4156c6c4\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+74                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+74-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\1af91fb5fbde7d8eaf4d346a4156c6c4\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+75                android:value="androidx.startup" />
+75-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\1af91fb5fbde7d8eaf4d346a4156c6c4\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+76            <meta-data
+76-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\fd2d79b51837535a55c62bd646549dd8\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+77                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+77-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\fd2d79b51837535a55c62bd646549dd8\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+78                android:value="androidx.startup" />
+78-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\fd2d79b51837535a55c62bd646549dd8\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+79        </provider>
+80
+81        <receiver
+81-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\fd2d79b51837535a55c62bd646549dd8\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+82            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+82-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\fd2d79b51837535a55c62bd646549dd8\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+83            android:directBootAware="false"
+83-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\fd2d79b51837535a55c62bd646549dd8\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+84            android:enabled="true"
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\fd2d79b51837535a55c62bd646549dd8\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+85            android:exported="true"
+85-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\fd2d79b51837535a55c62bd646549dd8\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+86            android:permission="android.permission.DUMP" >
+86-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\fd2d79b51837535a55c62bd646549dd8\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+87            <intent-filter>
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\fd2d79b51837535a55c62bd646549dd8\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+88                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+88-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\fd2d79b51837535a55c62bd646549dd8\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+88-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\fd2d79b51837535a55c62bd646549dd8\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+89            </intent-filter>
+90            <intent-filter>
+90-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\fd2d79b51837535a55c62bd646549dd8\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+91                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+91-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\fd2d79b51837535a55c62bd646549dd8\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+91-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\fd2d79b51837535a55c62bd646549dd8\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+92            </intent-filter>
+93            <intent-filter>
+93-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\fd2d79b51837535a55c62bd646549dd8\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+94                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+94-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\fd2d79b51837535a55c62bd646549dd8\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+94-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\fd2d79b51837535a55c62bd646549dd8\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+95            </intent-filter>
+96            <intent-filter>
+96-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\fd2d79b51837535a55c62bd646549dd8\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+97                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+97-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\fd2d79b51837535a55c62bd646549dd8\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+97-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zwoax\.gradle\caches\8.11.1\transforms\fd2d79b51837535a55c62bd646549dd8\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+98            </intent-filter>
+99        </receiver>
+100    </application>
+101
+102</manifest>
