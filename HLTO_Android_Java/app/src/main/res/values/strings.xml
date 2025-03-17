@@ -1,0 +1,127 @@
+<!--
+1 = English
+2 = Traditional Chinese
+3 = Simplified Chinese
+-->
+<resources>
+    <string name="app_name">Hera Leto T</string>
+
+    <string name="menu_title_hlt_1">Hera Leto Temperature</string>
+    <string name="menu_title_hlt_2">樂心聽 體溫</string>
+    <string name="menu_title_hlt_3">乐心听 体温</string>
+
+    <string name="menu_title_1">Hera Leto Temperature &amp; Oxygen</string>
+    <string name="menu_title_2">樂心聽 體溫&amp;血氧</string>
+    <string name="menu_title_3">乐心听 体温&amp;血氧</string>
+
+    <string name="info_1">CONNECT A DEVICE</string>
+    <string name="info_2">連接設備</string>
+    <string name="info_3">连接设备</string>
+
+    <string name="history_1">VIEW HISTORY</string>
+    <string name="history_2">查看歷史</string>
+    <string name="history_3">查看历史</string>
+
+    <string name="log_data_1">Log raw data</string>
+    <string name="log_data_2">記錄原始數據</string>
+    <string name="log_data_3">记录原始数据</string>
+
+    <string name="device_id_1">Device ID:</string>
+    <string name="device_id_2">設備ID:</string>
+    <string name="device_id_3">设备ID:</string>
+
+    <string name="device_address_1">Address</string>
+    <string name="device_address_2">地址:</string>
+    <string name="device_address_3">地址:</string>
+
+    <string name="device_heart_rate_1">Heart Rate</string>
+    <string name="device_heart_rate_2">心率</string>
+    <string name="device_heart_rate_3">心率</string>
+
+    <string name="device_temperature_1">Temperature</string>
+    <string name="device_temperature_2">體溫</string>
+    <string name="device_temperature_3">体温</string>
+
+    <string name="device_respiration_1">Respiration Rate</string>
+    <string name="device_respiration_2">呼吸率</string>
+    <string name="device_respiration_3">呼吸率</string>
+
+    <string name="device_spo2_1">SpO2</string>
+    <string name="device_spo2_2">血氧</string>
+    <string name="device_spo2_3">血氧</string>
+
+    <string name="device_search_1">SEARCH FOR DEVICES</string>
+    <string name="device_search_2">搜索設備</string>
+    <string name="device_search_3">查找设备</string>
+
+    <string name="device_stop_search_1">STOP SEARCH</string>
+    <string name="device_stop_search_2">停止搜索</string>
+    <string name="device_stop_search_3">停止搜索</string>
+
+    <string name="disconnect_1">Disconnect</string>
+    <string name="disconnect_2">斷開連接</string>
+    <string name="disconnect_3">断开连接</string>
+
+    <string name="h_min_1">MIN</string>
+    <string name="h_min_2">最少</string>
+    <string name="h_min_3">最小值</string>
+
+    <string name="h_max_1">MAX</string>
+    <string name="h_max_2">最大</string>
+    <string name="h_max_3">最大值</string>
+
+    <string name="h_avg_1">AVG</string>
+    <string name="h_avg_2">平均</string>
+    <string name="h_avg_3">平均值</string>
+
+    <string name="h_dt_1">Date and Time</string>
+    <string name="h_dt_2">日期和時間</string>
+    <string name="h_dt_3">日期和时间</string>
+
+    <string name="h_info_1">DEVICE HISTORY</string>
+    <string name="h_info_2">設備歷史</string>
+    <string name="h_info_3">设备历史</string>
+
+    <string name="h_back_1">BACK</string>
+    <string name="h_back_2">返回</string>
+    <string name="h_back_3">返回</string>
+
+    <string name="h_device_heart_rate_1">Heart Rate [bpm]</string>
+    <string name="h_device_heart_rate_2">心率 [bpm]</string>
+    <string name="h_device_heart_rate_3">心率 [bpm]</string>
+
+    <string name="h_device_temperature_1">Temperature [°C]</string>
+    <string name="h_device_temperature_2">體溫 [°C]</string>
+    <string name="h_device_temperature_3">体温 [°C]</string>
+
+    <string name="h_device_respiration_1">Respiration Rate [rpm]</string>
+    <string name="h_device_respiration_2">呼吸率 [rpm]</string>
+    <string name="h_device_respiration_3">呼吸率 [rpm]</string>
+
+    <string name="h_device_spo2_1">SpO2 [%]</string>
+    <string name="h_device_spo2_2">血氧 [%]</string>
+    <string name="h_device_spo2_3">血氧 [%]</string>
+
+    <string name="button_name">SEARCH FOR DEVICES</string>
+    <string name="ok_icon">image test icon</string>
+    <string name="address">Address</string>
+    <string name="age_text">Age</string>
+    <string name="hr_text">Heart Rate</string>
+    <string name="temp_text">Temperature</string>
+    <string name="rr_text">Respiration Rate</string>
+    <string name="stress_text">Stress Level</string>
+    <string name="fatigue_text">Fatigue</string>
+    <string name="lf_hf_text">LF/HF</string>
+    <string name="default_value">-</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="reset">Reset</string>
+    <string name="celsius">° C</string>
+    <string name="fahrenheit">° F</string>
+    <string name="show_unnamed_devices">Show Unnamed Devices</string>
+    <string name="info">CONNECT A DEVICE</string>
+    <string name="info_ble_ops">Please wait while stress level is loaded</string>
+
+    <string name="app_uuid">94f39d29–7d6d-437d-973b-fba39e49d4ee</string>
+    <string name="log_raw_data">Log raw data</string>
+    <string name="view_history">View History</string>
+</resources>
