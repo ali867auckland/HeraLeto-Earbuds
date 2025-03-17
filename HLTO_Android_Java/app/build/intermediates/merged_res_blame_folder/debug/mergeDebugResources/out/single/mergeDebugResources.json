@@ -1,0 +1,134 @@
+[
+    {
+        "merged": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-debug-34:\\layout_device_history.xml.flat",
+        "source": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-main-36:\\layout\\device_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-debug-34:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-main-36:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-debug-34:\\mipmap-xxxhdpi_globe2.png.flat",
+        "source": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-main-36:\\mipmap-xxxhdpi\\globe2.png"
+    },
+    {
+        "merged": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-debug-34:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-main-36:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-debug-34:\\mipmap-xxxhdpi_temperature.png.flat",
+        "source": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-main-36:\\mipmap-xxxhdpi\\temperature.png"
+    },
+    {
+        "merged": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-debug-34:\\font_lato.xml.flat",
+        "source": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-main-36:\\font\\lato.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-debug-34:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-main-36:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-debug-34:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-main-36:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-debug-34:\\menu_menu_device_language.xml.flat",
+        "source": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-main-36:\\menu\\menu_device_language.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-debug-34:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-main-36:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-debug-34:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-main-36:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-debug-34:\\layout_activity_ble_operations.xml.flat",
+        "source": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-main-36:\\layout\\activity_ble_operations.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-debug-34:\\drawable-xxxhdpi_language_icon3.png.flat",
+        "source": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-main-36:\\drawable-xxxhdpi\\language_icon3.png"
+    },
+    {
+        "merged": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-debug-34:\\mipmap-xxxhdpi_hearbeat.png.flat",
+        "source": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-main-36:\\mipmap-xxxhdpi\\hearbeat.png"
+    },
+    {
+        "merged": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-debug-34:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-main-36:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-debug-34:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-main-36:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-debug-34:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-main-36:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-debug-34:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-main-36:\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-debug-34:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-main-36:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-debug-34:\\layout_device_identity.xml.flat",
+        "source": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-main-36:\\layout\\device_identity.xml"
+    },
+    {
+        "merged": "com.wbd101.hlt010.app-debug-34:/layout_device_identity.xml.flat",
+        "source": "com.wbd101.hlt010.app-main-36:/layout/device_identity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-debug-34:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-main-36:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-debug-34:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-main-36:\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-debug-34:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-main-36:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-debug-34:\\font_lato_bold.xml.flat",
+        "source": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-main-36:\\font\\lato_bold.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-debug-34:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-main-36:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-debug-34:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-main-36:\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-debug-34:\\layout_activity_history.xml.flat",
+        "source": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-main-36:\\layout\\activity_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-debug-34:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-main-36:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-debug-34:\\mipmap-xxxhdpi_respiration.png.flat",
+        "source": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-main-36:\\mipmap-xxxhdpi\\respiration.png"
+    },
+    {
+        "merged": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-debug-34:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-main-36:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-debug-34:\\drawable_seekbar.xml.flat",
+        "source": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-main-36:\\drawable\\seekbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-debug-34:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Zwoax\\.gradle\\daemon\\8.11.1\\com.wbd101.hlt010.app-main-36:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    }
+]

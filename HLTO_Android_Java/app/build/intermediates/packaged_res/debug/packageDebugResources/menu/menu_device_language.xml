@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/ENG"
+        android:title="English"
+        app:showAsAction="never"/>
+    <item android:id="@+id/CNT"
+        android:title="繁體中文"/>
+    <item android:id="@+id/CNS"
+        android:title="简体中文"/>
+</menu>

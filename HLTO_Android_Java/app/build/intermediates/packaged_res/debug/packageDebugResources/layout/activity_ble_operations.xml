@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/hr_cardView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        android:background="#C8FFF4"
+        android:backgroundTint="#C8FFF4"
+        app:cardCornerRadius="18dp"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/temp_cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NBO_device_name"
+        >
+
+        <ImageView
+            android:id="@+id/hr_imageView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="14dp"
+            app:srcCompat="@mipmap/hearbeat" />
+
+        <TextView
+            android:id="@+id/hr_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="@string/device_heart_rate_1"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/NBO_hr_value"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textAlignment="textEnd"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="40dp"
+            android:fontFamily="@font/lato"
+            android:text=""
+            android:textColor="#03DAC5"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/hr_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="34dp"
+            android:layout_marginEnd="10dp"
+            android:text="bpm"
+            android:textColor="#03DAC5"
+            android:textSize="12sp" />
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/hr_graph"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/temp_cardView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="16dp"
+        android:background="#C8FFF4"
+        android:backgroundTint="#C8FFF4"
+        app:cardCornerRadius="18dp"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/resp_cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hr_cardView">
+
+        <ImageView
+            android:id="@+id/temp_imageView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="14dp"
+            app:srcCompat="@mipmap/temperature" />
+
+        <TextView
+            android:id="@+id/temp_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="@string/device_temperature_1"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/NBO_temp_value"
+            android:layout_gravity="end"
+            android:textAlignment="textEnd"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/lato"
+            android:text=""
+            android:textColor="#03DAC5"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/temp_unit"
+            android:layout_gravity="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="34dp"
+            android:text="@string/celsius"
+            android:textColor="#03DAC5"
+            android:textSize="12sp" />
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/temp_graph"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/resp_cardView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="16dp"
+        android:background="#C8FFF4"
+        android:backgroundTint="#C8FFF4"
+        app:cardCornerRadius="18dp"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/spo2_cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/temp_cardView">
+
+        <ImageView
+            android:id="@+id/resp_imageView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="14dp"
+            app:srcCompat="@mipmap/respiration" />
+
+        <TextView
+            android:id="@+id/resp_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="@string/device_respiration_1"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/NBO_resp_value"
+            android:layout_gravity="end"
+            android:textAlignment="textEnd"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="45dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/lato"
+            android:text=""
+            android:textColor="#03DAC5"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/resp_unit"
+            android:layout_gravity="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="34dp"
+            android:text="/ min"
+            android:textColor="#03DAC5"
+            android:textSize="12sp" />
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/resp_graph"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/spo2_cardView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="16dp"
+        android:background="#C8FFF4"
+        android:backgroundTint="#C8FFF4"
+        android:visibility="invisible"
+        app:cardCornerRadius="18dp"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/NBO_disconnect_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resp_cardView">
+
+        <TextView
+            android:id="@+id/spo2_imageView"
+            android:layout_width="30dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:text="%"
+            android:textSize="30sp"
+            app:srcCompat="@mipmap/respiration" />
+
+        <TextView
+            android:id="@+id/spo2_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="@string/device_spo2_1"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/NBO_spo2_value"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="12dp"
+            android:textAlignment="textEnd"
+            android:layout_gravity="end"
+            android:fontFamily="@font/lato"
+            android:text=""
+            android:textColor="#03DAC5"
+            android:textSize="36sp"/>
+
+        <TextView
+            android:id="@+id/spo2_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="34dp"
+            android:text="%"
+            android:layout_gravity="end"
+            android:textColor="#03DAC5"
+            android:textSize="12sp" />
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/spo2_graph"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/NBO_marker_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="5dp"
+        android:elevation="10dp"
+        android:stateListAnimator="@null"
+        android:text="Marker ID: 0"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/NBO_disconnect_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spo2_cardView" />
+
+    <Button
+        android:id="@+id/NBO_disconnect_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="5dp"
+        android:elevation="10dp"
+        android:stateListAnimator="@null"
+        android:text="@string/disconnect_1"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/NBO_marker_button"
+        app:layout_constraintTop_toBottomOf="@+id/spo2_cardView" />
+
+
+    <TextView
+        android:id="@+id/Label_device_name_ble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginStart="0dp"
+        android:elevation="5dp"
+        android:fontFamily="@font/lato"
+        android:stateListAnimator="@null"
+        android:text="@string/device_id_1"
+        android:textColor="#73000000"
+        android:textSize="24sp"
+        android:translationZ="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/hr_cardView"
+        app:layout_constraintEnd_toStartOf="@+id/NBO_device_name"
+        app:layout_constraintStart_toStartOf="@id/hr_cardView"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/NBO_device_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:fontFamily="@font/lato"
+        android:stateListAnimator="@null"
+        android:text="-"
+        android:textColor="#73000000"
+        android:textSize="24sp"
+        android:translationZ="5dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Label_device_name_ble"
+        app:layout_constraintStart_toEndOf="@id/Label_device_name_ble"
+        app:layout_constraintTop_toTopOf="@id/Label_device_name_ble" />
+    <TextView
+        android:id="@+id/NBO_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:fontFamily="@font/lato"
+        android:stateListAnimator="@null"
+        android:text="00:00"
+        android:textColor="#73000000"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        android:translationZ="5dp"
+        android:layout_marginEnd="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Label_device_name_ble"
+
+        app:layout_constraintEnd_toEndOf="@id/hr_cardView"
+        app:layout_constraintTop_toTopOf="@id/Label_device_name_ble" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
