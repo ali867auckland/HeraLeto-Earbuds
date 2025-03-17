@@ -1,0 +1,70 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.wbd101.hlt010'
+    compileSdk 35
+    //buildToolsVersion '35.0.0'
+
+    defaultConfig {
+        applicationId "com.wbd101.hlt010"
+        minSdk 34
+        targetSdk 35
+        versionCode 4
+        versionName "1.4"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        externalNativeBuild {
+            cmake {
+                cppFlags ""
+            }
+        }
+    }
+//    python {
+//        // If Chaquopy fails to find Python on your build machine, enable the following
+//        // line and edit it to point to Python 3.5 or later.
+//         buildPython "C:/Users/prase/AppData/Local/Programs/Python/Python38/python.exe"
+//    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+//    externalNativeBuild {
+//        cmake {
+//            path "src/main/cpp/CMakeLists.txt"
+//            version "3.10.2"
+//        }
+//    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    sourceSets.main {
+        jni.srcDirs = [] // disable automatic ndk-build call
+        jniLibs.srcDir 'src/main/libs/' // integrate your libs from libs instead of jniLibs
+    }
+    lintOptions {
+        checkReleaseBuilds false
+    }
+    ndkVersion '28.0.12674087 rc2'
+    buildToolsVersion '35.0.0'
+}
+
+dependencies {
+//    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'com.google.android.material:material:1.12.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.2.0'
+    implementation 'androidx.recyclerview:recyclerview:1.3.2'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.opencsv:opencsv:5.9'
+    implementation 'com.jjoe64:graphview:4.2.2'
+
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.2.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
+}
